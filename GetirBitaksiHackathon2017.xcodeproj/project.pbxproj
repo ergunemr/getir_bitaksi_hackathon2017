@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C225C602FB87ECE3388317F /* libPods-GetirBitaksiHackathon2017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC823720A3E1C0332AE68CD /* libPods-GetirBitaksiHackathon2017.a */; };
+		FB13AC271E7600A30010C1C2 /* LinkProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FB13AC261E7600A30010C1C2 /* LinkProvider.m */; };
 		FB1D78C51E75FDD0002A2AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D78C41E75FDD0002A2AAA /* main.m */; };
 		FB1D78C81E75FDD0002A2AAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D78C71E75FDD0002A2AAA /* AppDelegate.m */; };
 		FB1D78CB1E75FDD0002A2AAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D78CA1E75FDD0002A2AAA /* ViewController.m */; };
 		FB1D78CE1E75FDD0002A2AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1D78CC1E75FDD0002A2AAA /* Main.storyboard */; };
 		FB1D78D01E75FDD0002A2AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1D78CF1E75FDD0002A2AAA /* Assets.xcassets */; };
 		FB1D78D31E75FDD0002A2AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1D78D11E75FDD0002A2AAA /* LaunchScreen.storyboard */; };
+		FBBA8DE81E7601F10098C941 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DE71E7601F10098C941 /* Service.m */; };
+		FBBA8DEB1E7602120098C941 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DEA1E7602120098C941 /* BaseRequest.m */; };
+		FBBA8DEE1E7602470098C941 /* ElementsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DED1E7602470098C941 /* ElementsRequest.m */; };
+		FBBA8DF11E76028C0098C941 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DF01E76028C0098C941 /* BaseResponse.m */; };
+		FBBA8DF41E7602DC0098C941 /* ElementsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DF31E7602DC0098C941 /* ElementsResponse.m */; };
+		FBBA8DFA1E7604650098C941 /* BaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DF91E7604650098C941 /* BaseElement.m */; };
+		FBBA8DFD1E7605340098C941 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DFC1E7605340098C941 /* Circle.m */; };
+		FBBA8E001E7605710098C941 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8DFF1E7605710098C941 /* Rectangle.m */; };
+		FBBA8E041E760C710098C941 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8E031E760C710098C941 /* RootViewController.m */; };
+		FBBA8E071E760D5D0098C941 /* ElementsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBA8E061E760D5D0098C941 /* ElementsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6C1996C56F7E6F2D495697 /* Pods-GetirBitaksiHackathon2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirBitaksiHackathon2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetirBitaksiHackathon2017/Pods-GetirBitaksiHackathon2017.release.xcconfig"; sourceTree = "<group>"; };
+		6FC823720A3E1C0332AE68CD /* libPods-GetirBitaksiHackathon2017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GetirBitaksiHackathon2017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C614CD2025F30712550292 /* Pods-GetirBitaksiHackathon2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirBitaksiHackathon2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetirBitaksiHackathon2017/Pods-GetirBitaksiHackathon2017.debug.xcconfig"; sourceTree = "<group>"; };
+		FB13AC251E7600A30010C1C2 /* LinkProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkProvider.h; sourceTree = "<group>"; };
+		FB13AC261E7600A30010C1C2 /* LinkProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkProvider.m; sourceTree = "<group>"; };
 		FB1D78C01E75FDD0002A2AAA /* GetirBitaksiHackathon2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetirBitaksiHackathon2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1D78C41E75FDD0002A2AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB1D78C61E75FDD0002A2AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,27 @@
 		FB1D78CF1E75FDD0002A2AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1D78D21E75FDD0002A2AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1D78D41E75FDD0002A2AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBA8DE61E7601F10098C941 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		FBBA8DE71E7601F10098C941 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		FBBA8DE91E7602120098C941 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		FBBA8DEA1E7602120098C941 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		FBBA8DEC1E7602470098C941 /* ElementsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsRequest.h; sourceTree = "<group>"; };
+		FBBA8DED1E7602470098C941 /* ElementsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsRequest.m; sourceTree = "<group>"; };
+		FBBA8DEF1E76028C0098C941 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		FBBA8DF01E76028C0098C941 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		FBBA8DF21E7602DC0098C941 /* ElementsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsResponse.h; sourceTree = "<group>"; };
+		FBBA8DF31E7602DC0098C941 /* ElementsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsResponse.m; sourceTree = "<group>"; };
+		FBBA8DF81E7604650098C941 /* BaseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElement.h; sourceTree = "<group>"; };
+		FBBA8DF91E7604650098C941 /* BaseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseElement.m; sourceTree = "<group>"; };
+		FBBA8DFB1E7605340098C941 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		FBBA8DFC1E7605340098C941 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		FBBA8DFE1E7605710098C941 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		FBBA8DFF1E7605710098C941 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		FBBA8E011E76099D0098C941 /* ServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceProtocol.h; sourceTree = "<group>"; };
+		FBBA8E021E760C710098C941 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FBBA8E031E760C710098C941 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FBBA8E051E760D5D0098C941 /* ElementsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsManager.h; sourceTree = "<group>"; };
+		FBBA8E061E760D5D0098C941 /* ElementsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C225C602FB87ECE3388317F /* libPods-GetirBitaksiHackathon2017.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475204DE48BC0995537DAB26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8C614CD2025F30712550292 /* Pods-GetirBitaksiHackathon2017.debug.xcconfig */,
+				3F6C1996C56F7E6F2D495697 /* Pods-GetirBitaksiHackathon2017.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		725893DDC30C6226BE8E52AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC823720A3E1C0332AE68CD /* libPods-GetirBitaksiHackathon2017.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB1D78B71E75FDD0002A2AAA = {
 			isa = PBXGroup;
 			children = (
 				FB1D78C21E75FDD0002A2AAA /* GetirBitaksiHackathon2017 */,
 				FB1D78C11E75FDD0002A2AAA /* Products */,
+				475204DE48BC0995537DAB26 /* Pods */,
+				725893DDC30C6226BE8E52AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +116,34 @@
 		FB1D78C21E75FDD0002A2AAA /* GetirBitaksiHackathon2017 */ = {
 			isa = PBXGroup;
 			children = (
+				FB13AC251E7600A30010C1C2 /* LinkProvider.h */,
+				FB13AC261E7600A30010C1C2 /* LinkProvider.m */,
+				FBBA8DE61E7601F10098C941 /* Service.h */,
+				FBBA8DE71E7601F10098C941 /* Service.m */,
+				FBBA8E051E760D5D0098C941 /* ElementsManager.h */,
+				FBBA8E061E760D5D0098C941 /* ElementsManager.m */,
 				FB1D78C61E75FDD0002A2AAA /* AppDelegate.h */,
 				FB1D78C71E75FDD0002A2AAA /* AppDelegate.m */,
 				FB1D78C91E75FDD0002A2AAA /* ViewController.h */,
 				FB1D78CA1E75FDD0002A2AAA /* ViewController.m */,
+				FBBA8E021E760C710098C941 /* RootViewController.h */,
+				FBBA8E031E760C710098C941 /* RootViewController.m */,
 				FB1D78CC1E75FDD0002A2AAA /* Main.storyboard */,
+				FBBA8DF21E7602DC0098C941 /* ElementsResponse.h */,
+				FBBA8DF31E7602DC0098C941 /* ElementsResponse.m */,
+				FBBA8DEF1E76028C0098C941 /* BaseResponse.h */,
+				FBBA8DF01E76028C0098C941 /* BaseResponse.m */,
+				FBBA8DEC1E7602470098C941 /* ElementsRequest.h */,
+				FBBA8DED1E7602470098C941 /* ElementsRequest.m */,
+				FBBA8DE91E7602120098C941 /* BaseRequest.h */,
+				FBBA8DEA1E7602120098C941 /* BaseRequest.m */,
+				FBBA8DF81E7604650098C941 /* BaseElement.h */,
+				FBBA8DF91E7604650098C941 /* BaseElement.m */,
+				FBBA8DFB1E7605340098C941 /* Circle.h */,
+				FBBA8DFC1E7605340098C941 /* Circle.m */,
+				FBBA8DFE1E7605710098C941 /* Rectangle.h */,
+				FBBA8DFF1E7605710098C941 /* Rectangle.m */,
+				FBBA8E011E76099D0098C941 /* ServiceProtocol.h */,
 				FB1D78CF1E75FDD0002A2AAA /* Assets.xcassets */,
 				FB1D78D11E75FDD0002A2AAA /* LaunchScreen.storyboard */,
 				FB1D78D41E75FDD0002A2AAA /* Info.plist */,
@@ -86,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1D78D71E75FDD0002A2AAA /* Build configuration list for PBXNativeTarget "GetirBitaksiHackathon2017" */;
 			buildPhases = (
+				D28C4E4B88EB1B143E944C50 /* [CP] Check Pods Manifest.lock */,
 				FB1D78BC1E75FDD0002A2AAA /* Sources */,
 				FB1D78BD1E75FDD0002A2AAA /* Frameworks */,
 				FB1D78BE1E75FDD0002A2AAA /* Resources */,
+				E9E7F6E8139FEFBADEC7A7EE /* [CP] Embed Pods Frameworks */,
+				226EF302E73B5FD08EF57359 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +229,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		226EF302E73B5FD08EF57359 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirBitaksiHackathon2017/Pods-GetirBitaksiHackathon2017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28C4E4B88EB1B143E944C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E7F6E8139FEFBADEC7A7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirBitaksiHackathon2017/Pods-GetirBitaksiHackathon2017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB1D78BC1E75FDD0002A2AAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBA8DE81E7601F10098C941 /* Service.m in Sources */,
+				FBBA8DFD1E7605340098C941 /* Circle.m in Sources */,
 				FB1D78CB1E75FDD0002A2AAA /* ViewController.m in Sources */,
 				FB1D78C81E75FDD0002A2AAA /* AppDelegate.m in Sources */,
+				FBBA8DFA1E7604650098C941 /* BaseElement.m in Sources */,
+				FBBA8DF11E76028C0098C941 /* BaseResponse.m in Sources */,
+				FBBA8DEE1E7602470098C941 /* ElementsRequest.m in Sources */,
+				FB13AC271E7600A30010C1C2 /* LinkProvider.m in Sources */,
+				FBBA8DEB1E7602120098C941 /* BaseRequest.m in Sources */,
 				FB1D78C51E75FDD0002A2AAA /* main.m in Sources */,
+				FBBA8E041E760C710098C941 /* RootViewController.m in Sources */,
+				FBBA8DF41E7602DC0098C941 /* ElementsResponse.m in Sources */,
+				FBBA8E071E760D5D0098C941 /* ElementsManager.m in Sources */,
+				FBBA8E001E7605710098C941 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +413,7 @@
 		};
 		FB1D78D81E75FDD0002A2AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C614CD2025F30712550292 /* Pods-GetirBitaksiHackathon2017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetirBitaksiHackathon2017/Info.plist;
@@ -281,6 +425,7 @@
 		};
 		FB1D78D91E75FDD0002A2AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6C1996C56F7E6F2D495697 /* Pods-GetirBitaksiHackathon2017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetirBitaksiHackathon2017/Info.plist;
@@ -309,6 +454,7 @@
 				FB1D78D91E75FDD0002A2AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

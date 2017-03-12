@@ -1,0 +1,29 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - UIColorHexRGB (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1)
+  - UIColorHexRGB
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  UIColorHexRGB: 85a6aa9f33807fe8cd6f862f048c68168fb62bd4
+
+PODFILE CHECKSUM: 4a4f45a2ee9bd7373c3e8a99bd1b38e442367a7c
+
+COCOAPODS: 1.0.1

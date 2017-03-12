@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  GetirBitaksiHackathon2017
 //
 //  Created by Emre Ergün on 13/03/17.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RootViewController.h"
-#import "ElementsManager.h"
+#import "Service.h"
 
-@interface ViewController : RootViewController <ElementsManagerDelegate>
+@interface RootViewController : UIViewController
+
+@property (strong, nonatomic) Service *service;
 
 @end
-
