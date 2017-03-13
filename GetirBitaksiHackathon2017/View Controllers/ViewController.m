@@ -58,9 +58,16 @@
 {
     [SVProgressHUD dismiss];
     UIAlertController * alert = [UIAlertController
-                                 alertControllerWithTitle:@"Hata"
+                                 alertControllerWithTitle:@"Error"
                                  message:errorMessage
                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Allright" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [alert dismissViewControllerAnimated:YES completion:nil];
+    }];
+    
+    [alert addAction:action];
     
     [self presentViewController:alert animated:YES completion:nil];
 }

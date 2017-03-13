@@ -6,6 +6,8 @@
 //  Copyright © 2017 Emre Ergün. All rights reserved.
 //
 
+#define SERVICE_INTERNET_STATUS_FAIL_MESSAGE @"Check internet reachibility"
+
 #import "Service.h"
 
 @implementation Service
@@ -17,14 +19,26 @@
     AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     sessionManager.requestSerializer = [AFHTTPRequestSerializer serializer];
     
-    [sessionManager POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-       
-        BaseResponse *response = [[BaseResponse alloc] initWithResponseDict:responseObject];
-        [delegate serviceCallFinished:response];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status){
         
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
-        [delegate serviceFailed:error.userInfo.description];
+        if ([[AFNetworkReachabilityManager sharedManager] isReachable])
+        {
+            [sessionManager POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                
+                BaseResponse *response = [[BaseResponse alloc] initWithResponseDict:responseObject];
+                [delegate serviceCallFinished:response];
+                
+            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                
+                [delegate serviceFailed:error.userInfo.description];
+                
+            }];
+        }
+        else
+        {
+            [delegate serviceFailed:SERVICE_INTERNET_STATUS_FAIL_MESSAGE];
+        }
         
     }];
 }
