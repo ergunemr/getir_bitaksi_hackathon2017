@@ -10,7 +10,6 @@
 
 @implementation LinkProvider
     
-    
 + (instancetype)sharedInstance
 {
     static LinkProvider *sharedInstance = nil;

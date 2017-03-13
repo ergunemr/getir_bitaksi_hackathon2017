@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
 #import "ElementsManager.h"
+#import "ShapeDrawer.h"
+#import "SVProgressHUD.h"
 
 @interface ViewController : RootViewController <ElementsManagerDelegate>
 
